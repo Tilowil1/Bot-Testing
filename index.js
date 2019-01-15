@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const cfg require('./index.json');
 const prefix = ("/");
 
-bot.on("ready, fonction () {
+bot.on('ready', fonction () {
     console.log("Wesh je fontionne :D")
 	bot.user.setActivity('Dokkan Battle').catch(console.error)
 })
